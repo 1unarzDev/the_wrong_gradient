@@ -1,0 +1,23 @@
+# environment / caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# large or superseded media
+figures/demo.gif
+figures/demo.mp4
+figures/v2_demo.mp4
+figures/v2_preview/
+figures/screenshots/
+figures/fig15_sim_snapshot.*
+figures/return_rush_results.png
+
+# LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+data/*_log.txt
+data/**/log.txt

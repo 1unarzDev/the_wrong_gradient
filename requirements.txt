@@ -1,0 +1,8 @@
+pygame-ce 2.5.8 (SDL 2.32.10, Python 3.12.15)
+pygame-ce==2.5.8
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.1.1
+matplotlib==3.11.2
+pyyaml==6.0.3
+pytest==9.2.0
