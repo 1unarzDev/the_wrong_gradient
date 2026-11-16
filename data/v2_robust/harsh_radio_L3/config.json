@@ -1,0 +1,11 @@
+{
+ "out": "data/v2_robust/harsh_radio_L3",
+ "pols": "L3",
+ "comms": "degraded",
+ "seeds": "3100:3200",
+ "nboats": 4,
+ "episode": 300.0,
+ "cfg": "{}",
+ "dyn": "{\"p_good_to_bad\": 0.25, \"drop_good\": 0.3, \"latency_max_s\": 5.0}",
+ "jobs": 16
+}

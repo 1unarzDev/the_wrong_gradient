@@ -1,0 +1,11 @@
+{
+ "out": "data/v2_robust/slow_boats_L3",
+ "pols": "L3",
+ "comms": "degraded",
+ "seeds": "3100:3200",
+ "nboats": 4,
+ "episode": 300.0,
+ "cfg": "{}",
+ "dyn": "{\"v_max\": 1.6}",
+ "jobs": 16
+}

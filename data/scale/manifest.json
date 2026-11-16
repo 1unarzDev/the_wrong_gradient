@@ -1,0 +1,193 @@
+{
+  "name": "scale",
+  "config_file": "configs/scale.yaml",
+  "config_file_sha256": "48d597f8af414da18900bab05731291eae2e7f9a9c2b37479aef720bd8dad38c",
+  "source_hash": "698b51ed0def5c10",
+  "git_commit": "none",
+  "python": "3.12.15",
+  "platform": "Linux-7.2.14-arch1-1-x86_64-with-glibc2.44",
+  "seeds": [
+    40000,
+    40099,
+    100
+  ],
+  "policies": [
+    "P1",
+    "P2",
+    "A1",
+    "P3",
+    "P4"
+  ],
+  "conditions": [
+    {
+      "label": "n3_ideal",
+      "overrides": {
+        "n_boats": 3,
+        "comm_mode": "ideal"
+      }
+    },
+    {
+      "label": "n3_degraded",
+      "overrides": {
+        "n_boats": 3,
+        "comm_mode": "degraded"
+      }
+    },
+    {
+      "label": "n4_ideal",
+      "overrides": {
+        "n_boats": 4,
+        "comm_mode": "ideal"
+      }
+    },
+    {
+      "label": "n4_degraded",
+      "overrides": {
+        "n_boats": 4,
+        "comm_mode": "degraded"
+      }
+    },
+    {
+      "label": "n6_ideal",
+      "overrides": {
+        "n_boats": 6,
+        "comm_mode": "ideal"
+      }
+    },
+    {
+      "label": "n6_degraded",
+      "overrides": {
+        "n_boats": 6,
+        "comm_mode": "degraded"
+      }
+    },
+    {
+      "label": "n8_ideal",
+      "overrides": {
+        "n_boats": 8,
+        "comm_mode": "ideal"
+      }
+    },
+    {
+      "label": "n8_degraded",
+      "overrides": {
+        "n_boats": 8,
+        "comm_mode": "degraded"
+      }
+    },
+    {
+      "label": "n12_ideal",
+      "overrides": {
+        "n_boats": 12,
+        "comm_mode": "ideal"
+      }
+    },
+    {
+      "label": "n12_degraded",
+      "overrides": {
+        "n_boats": 12,
+        "comm_mode": "degraded"
+      }
+    },
+    {
+      "label": "n16_ideal",
+      "overrides": {
+        "n_boats": 16,
+        "comm_mode": "ideal"
+      }
+    },
+    {
+      "label": "n16_degraded",
+      "overrides": {
+        "n_boats": 16,
+        "comm_mode": "degraded"
+      }
+    }
+  ],
+  "base": {
+    "r_max": 0.45,
+    "tau_r": 0.8,
+    "current_strength": 0.6,
+    "graph_speed": 1.475,
+    "age_tau_s": 12.0
+  },
+  "config_hashes": {
+    "n3_ideal/P1": "6227029e200dbd20",
+    "n3_ideal/P2": "de813347f7b94d97",
+    "n3_ideal/A1": "898448fae7f15b72",
+    "n3_ideal/P3": "163f29a48e1a2fb5",
+    "n3_ideal/P4": "62aca087ff079e57",
+    "n3_degraded/P1": "fe2a805a8da5a597",
+    "n3_degraded/P2": "3e792cb2f11fc065",
+    "n3_degraded/A1": "7bb7e0e03a9b907f",
+    "n3_degraded/P3": "659616c8fc7b059d",
+    "n3_degraded/P4": "0eb23ca0d99fbddb",
+    "n4_ideal/P1": "318ff37c774e0b6e",
+    "n4_ideal/P2": "ac5be6176ed767cb",
+    "n4_ideal/A1": "1dbc7f6726a6460e",
+    "n4_ideal/P3": "dce76fafec261f07",
+    "n4_ideal/P4": "608c63b7eda176e4",
+    "n4_degraded/P1": "8700259c553b9f00",
+    "n4_degraded/P2": "701c31c6cd47b7af",
+    "n4_degraded/A1": "8b75409a1fa6cce6",
+    "n4_degraded/P3": "585e26405e672b5b",
+    "n4_degraded/P4": "717eb47877d3a5a6",
+    "n6_ideal/P1": "fd9370d0449a681f",
+    "n6_ideal/P2": "eb39fb55ad320bd5",
+    "n6_ideal/A1": "e57e2901e87ead3a",
+    "n6_ideal/P3": "3578bcde759fecb3",
+    "n6_ideal/P4": "2657bb755dd95c30",
+    "n6_degraded/P1": "6d0766a3b2a5024c",
+    "n6_degraded/P2": "2bfc6f8eac5ad985",
+    "n6_degraded/A1": "1d4c86a7c71e6b87",
+    "n6_degraded/P3": "3782c1b4e7282920",
+    "n6_degraded/P4": "93add350f92dfaef",
+    "n8_ideal/P1": "cbb0fbf97d22ddc8",
+    "n8_ideal/P2": "e9536a191bed9ca5",
+    "n8_ideal/A1": "ef3fdbd2ad57b0c1",
+    "n8_ideal/P3": "74b186b3899f2b0f",
+    "n8_ideal/P4": "1957da5ba6e6b9ae",
+    "n8_degraded/P1": "a4a26f5d810001c6",
+    "n8_degraded/P2": "33d9f3f764d576cf",
+    "n8_degraded/A1": "65014ea78c2239f7",
+    "n8_degraded/P3": "69a0768b1ed48272",
+    "n8_degraded/P4": "74c34289d11e10dd",
+    "n12_ideal/P1": "4cad7bd554b17641",
+    "n12_ideal/P2": "b9d2d7a79960c914",
+    "n12_ideal/A1": "22e39f78916c7111",
+    "n12_ideal/P3": "6cdbc6239b0e7106",
+    "n12_ideal/P4": "e9f20a49b778db36",
+    "n12_degraded/P1": "b66d1ac534c9a083",
+    "n12_degraded/P2": "8bf4d30efa8734d9",
+    "n12_degraded/A1": "a9f881f78cab5f93",
+    "n12_degraded/P3": "472a4c7e7c3fdeed",
+    "n12_degraded/P4": "5649853de8c4bb07",
+    "n16_ideal/P1": "7d89ba1309b0e80a",
+    "n16_ideal/P2": "83fa9a0bc53ff3b2",
+    "n16_ideal/A1": "26925cf7b8e7c77e",
+    "n16_ideal/P3": "b0ddbeb21338af79",
+    "n16_ideal/P4": "c5d99bb0f4601f9c",
+    "n16_degraded/P1": "98a6d7adb9df392c",
+    "n16_degraded/P2": "d6b197b64ba03b99",
+    "n16_degraded/A1": "80585796e7ea1ce1",
+    "n16_degraded/P3": "a00daea69a5fe8a5",
+    "n16_degraded/P4": "157f69e6ba542c2d"
+  },
+  "started": "2026-11-15T02:27:22",
+  "n_jobs": 6000,
+  "already_done": 0,
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "pygame": "2.5.8"
+  },
+  "runs": [
+    {
+      "started": "2026-11-15T02:27:22",
+      "todo": 6000,
+      "source_hash": "698b51ed0def5c10"
+    }
+  ],
+  "finished": "2026-11-15T03:31:47"
+}

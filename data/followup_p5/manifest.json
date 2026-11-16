@@ -1,0 +1,60 @@
+{
+  "name": "followup_p5",
+  "config_file": "configs/followup_p5.yaml",
+  "config_file_sha256": "127c946a0bf7159e87df920b0b9cadbde53b11d5ccf7b6dbec6e22603c53187b",
+  "source_hash": "af5adf4f79996eb1",
+  "git_commit": "none",
+  "python": "3.12.15",
+  "platform": "Linux-7.2.14-arch1-1-x86_64-with-glibc2.44",
+  "seeds": [
+    20000,
+    20399,
+    400
+  ],
+  "policies": [
+    "P5"
+  ],
+  "conditions": [
+    {
+      "label": "ideal",
+      "overrides": {
+        "comm_mode": "ideal"
+      }
+    },
+    {
+      "label": "degraded",
+      "overrides": {
+        "comm_mode": "degraded"
+      }
+    }
+  ],
+  "base": {
+    "n_boats": 4,
+    "r_max": 0.45,
+    "tau_r": 0.8,
+    "current_strength": 0.6,
+    "graph_speed": 1.475,
+    "age_tau_s": 12.0
+  },
+  "config_hashes": {
+    "ideal/P5": "c15634a286075970",
+    "degraded/P5": "fb45e844471853f1"
+  },
+  "started": "2026-11-15T10:20:57",
+  "n_jobs": 800,
+  "already_done": 0,
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "pygame": "2.5.8"
+  },
+  "runs": [
+    {
+      "started": "2026-11-15T10:20:57",
+      "todo": 800,
+      "source_hash": "af5adf4f79996eb1"
+    }
+  ],
+  "finished": "2026-11-15T10:24:23"
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "seed": 20159,
+    "comm_mode": "ideal",
+    "policy_a": "A1",
+    "policy_b": "P3",
+    "n_boats": 4,
+    "diff": -50.93561334509804,
+    "note": "H1: W(P3) - W(A1) = -50.9"
+  },
+  {
+    "seed": 20184,
+    "comm_mode": "ideal",
+    "policy_a": "A1",
+    "policy_b": "P3",
+    "n_boats": 4,
+    "diff": -49.37035219655329,
+    "note": "H1: W(P3) - W(A1) = -49.4"
+  },
+  {
+    "seed": 20111,
+    "comm_mode": "ideal",
+    "policy_a": "A1",
+    "policy_b": "P3",
+    "n_boats": 4,
+    "diff": -48.06587571264904,
+    "note": "H1: W(P3) - W(A1) = -48.1"
+  },
+  {
+    "seed": 20261,
+    "comm_mode": "degraded",
+    "policy_a": "A2",
+    "policy_b": "P3",
+    "n_boats": 4,
+    "diff": -43.57841938490217,
+    "note": "H2: W(P3) - W(A2) = -43.6"
+  },
+  {
+    "seed": 20204,
+    "comm_mode": "degraded",
+    "policy_a": "A2",
+    "policy_b": "P3",
+    "n_boats": 4,
+    "diff": -42.199432558767654,
+    "note": "H2: W(P3) - W(A2) = -42.2"
+  },
+  {
+    "seed": 20336,
+    "comm_mode": "degraded",
+    "policy_a": "A2",
+    "policy_b": "P3",
+    "n_boats": 4,
+    "diff": -31.549972535489673,
+    "note": "H2: W(P3) - W(A2) = -31.5"
+  },
+  {
+    "seed": 20257,
+    "comm_mode": "degraded",
+    "policy_a": "P4",
+    "policy_b": "P3",
+    "n_boats": 4,
+    "diff": -68.13768728461042,
+    "note": "P4 vs P3: W(P3) - W(P4) = -68.1"
+  },
+  {
+    "seed": 20301,
+    "comm_mode": "degraded",
+    "policy_a": "P4",
+    "policy_b": "P3",
+    "n_boats": 4,
+    "diff": -63.508915479342875,
+    "note": "P4 vs P3: W(P3) - W(P4) = -63.5"
+  },
+  {
+    "seed": 20049,
+    "comm_mode": "degraded",
+    "policy_a": "P4",
+    "policy_b": "P3",
+    "n_boats": 4,
+    "diff": -62.73294132690888,
+    "note": "P4 vs P3: W(P3) - W(P4) = -62.7"
+  }
+]

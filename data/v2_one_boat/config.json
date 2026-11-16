@@ -1,0 +1,11 @@
+{
+ "out": "data/v2_one_boat",
+ "pols": "P2,A2",
+ "comms": "degraded",
+ "seeds": "2000:2200",
+ "nboats": 1,
+ "episode": 300.0,
+ "cfg": "{}",
+ "dyn": "{}",
+ "jobs": 12
+}

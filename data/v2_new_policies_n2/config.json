@@ -1,0 +1,11 @@
+{
+ "out": "data/v2_new_policies_n2",
+ "pols": "P5,R3",
+ "comms": "degraded,ideal",
+ "seeds": "2000:2200",
+ "nboats": 2,
+ "episode": 300.0,
+ "cfg": "{}",
+ "dyn": "{}",
+ "jobs": 12
+}

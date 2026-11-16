@@ -1,0 +1,11 @@
+# PILOT ONLY: sweep of the age-aware belief time constant (affects A1 and P3 only).
+name: pilot_agetau
+out_dir: data/pilot/agetau_r1
+seeds: {start: 1000, count: 50}
+policies: [A1, A2, P3]
+base: {n_boats: 4, r_max: 0.45, tau_r: 0.8, current_strength: 0.6, comm_mode: degraded}
+conditions:
+  - {label: tau3, overrides: {age_tau_s: 3.0}}
+  - {label: tau12, overrides: {age_tau_s: 12.0}}
+  - {label: tau25, overrides: {age_tau_s: 25.0}}
+workers: 18

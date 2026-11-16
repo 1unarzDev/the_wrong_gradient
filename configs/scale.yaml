@@ -1,0 +1,21 @@
+# EXPLORATORY (scaling). Seeds 40000-40099 per fleet size; arena area and task count scale with fleet
+# size (constant density: area ~ n, tasks = 3n, channels ~ sqrt(n)).
+name: scale
+out_dir: data/scale
+seeds: {start: 40000, count: 100}
+policies: [P1, P2, A1, P3, P4]
+base: {r_max: 0.45, tau_r: 0.8, current_strength: 0.6, graph_speed: 1.475, age_tau_s: 12.0}
+conditions:
+  - {label: n3_ideal,     overrides: {n_boats: 3,  comm_mode: ideal}}
+  - {label: n3_degraded,  overrides: {n_boats: 3,  comm_mode: degraded}}
+  - {label: n4_ideal,     overrides: {n_boats: 4,  comm_mode: ideal}}
+  - {label: n4_degraded,  overrides: {n_boats: 4,  comm_mode: degraded}}
+  - {label: n6_ideal,     overrides: {n_boats: 6,  comm_mode: ideal}}
+  - {label: n6_degraded,  overrides: {n_boats: 6,  comm_mode: degraded}}
+  - {label: n8_ideal,     overrides: {n_boats: 8,  comm_mode: ideal}}
+  - {label: n8_degraded,  overrides: {n_boats: 8,  comm_mode: degraded}}
+  - {label: n12_ideal,    overrides: {n_boats: 12, comm_mode: ideal}}
+  - {label: n12_degraded, overrides: {n_boats: 12, comm_mode: degraded}}
+  - {label: n16_ideal,    overrides: {n_boats: 16, comm_mode: ideal}}
+  - {label: n16_degraded, overrides: {n_boats: 16, comm_mode: degraded}}
+workers: 18

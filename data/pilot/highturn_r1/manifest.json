@@ -1,0 +1,76 @@
+{
+  "name": "pilot_highturn",
+  "config_file": "configs/pilot_highturn.yaml",
+  "config_file_sha256": "e86f65313051bda774b51c6a9b26c99d404045f501727c7aea93ceee8a27733a",
+  "source_hash": "31e257dced64a4e4",
+  "git_commit": "none",
+  "python": "3.12.15",
+  "platform": "Linux-7.2.14-arch1-1-x86_64-with-glibc2.44",
+  "seeds": [
+    1000,
+    1049,
+    50
+  ],
+  "policies": [
+    "P0",
+    "P1",
+    "P2",
+    "A1",
+    "A2",
+    "P3",
+    "P4"
+  ],
+  "conditions": [
+    {
+      "label": "ideal",
+      "overrides": {
+        "comm_mode": "ideal"
+      }
+    },
+    {
+      "label": "degraded",
+      "overrides": {
+        "comm_mode": "degraded"
+      }
+    }
+  ],
+  "base": {
+    "n_boats": 4,
+    "r_max": 0.45,
+    "tau_r": 0.8,
+    "current_strength": 0.6
+  },
+  "config_hashes": {
+    "ideal/P0": "0d6390653dece3dd",
+    "ideal/P1": "533e636a730869e6",
+    "ideal/P2": "4196e592d94676af",
+    "ideal/A1": "4a8b761233ad758d",
+    "ideal/A2": "e9ab95d4cbb45472",
+    "ideal/P3": "127ea23a5583778f",
+    "ideal/P4": "c298ffd3438c5dbf",
+    "degraded/P0": "a45d2c3d7e2a945c",
+    "degraded/P1": "b885ec6819945fd9",
+    "degraded/P2": "985d6206c50627c6",
+    "degraded/A1": "5cfecfbc79af6dbd",
+    "degraded/A2": "e4e7928572ed12a5",
+    "degraded/P3": "c22e44c45ef4ce21",
+    "degraded/P4": "b35535f1db8a4992"
+  },
+  "started": "2026-11-15T01:41:19",
+  "n_jobs": 700,
+  "already_done": 0,
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "pygame": "2.5.8"
+  },
+  "runs": [
+    {
+      "started": "2026-11-15T01:41:19",
+      "todo": 700,
+      "source_hash": "31e257dced64a4e4"
+    }
+  ],
+  "finished": "2026-11-15T01:43:37"
+}

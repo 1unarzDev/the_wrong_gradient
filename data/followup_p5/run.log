@@ -1,0 +1,18 @@
+pygame-ce 2.5.8 (SDL 2.32.10, Python 3.12.15)
+followup_p5: 800 jobs, 800 to run, workers=18
+  50/800  17s elapsed, ~254s left
+  100/800  29s elapsed, ~206s left
+  150/800  42s elapsed, ~182s left
+  200/800  55s elapsed, ~165s left
+  250/800  68s elapsed, ~150s left
+  300/800  81s elapsed, ~135s left
+  350/800  94s elapsed, ~121s left
+  400/800  107s elapsed, ~107s left
+  450/800  119s elapsed, ~93s left
+  500/800  132s elapsed, ~79s left
+  550/800  145s elapsed, ~66s left
+  600/800  156s elapsed, ~52s left
+  650/800  170s elapsed, ~39s left
+  700/800  182s elapsed, ~26s left
+  750/800  195s elapsed, ~13s left
+  800/800  206s elapsed, ~0s left

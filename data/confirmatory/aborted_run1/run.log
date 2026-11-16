@@ -1,0 +1,35 @@
+pygame-ce 2.5.8 (SDL 2.32.10, Python 3.12.15)
+confirmatory: 5600 jobs, 5600 to run, workers=18
+  50/5600  15s elapsed, ~1626s left
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/lunarz/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/lunarz/game_theory_exploration/src/experiment.py", line 65, in _run_job
+    sim = Simulation(cfg, seed)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lunarz/game_theory_exploration/src/sim.py", line 62, in __init__
+    self.tasks: List[Task] = generate_tasks(self.world, cfg)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lunarz/game_theory_exploration/src/tasks.py", line 111, in generate_tasks
+    raise RuntimeError("task placement failed")
+RuntimeError: task placement failed
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/lunarz/game_theory_exploration/src/experiment.py", line 166, in <module>
+    main()
+  File "/home/lunarz/game_theory_exploration/src/experiment.py", line 162, in main
+    run(a.config, a.workers, a.limit)
+  File "/home/lunarz/game_theory_exploration/src/experiment.py", line 133, in run
+    for k, (m, eta) in enumerate(pool.imap_unordered(_run_job, todo, chunksize=1)):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lunarz/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/multiprocessing/pool.py", line 873, in next
+    raise value
+RuntimeError: task placement failed

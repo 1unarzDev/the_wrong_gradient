@@ -1,0 +1,5 @@
+P3 yields/run 1.60
+A2 yields/run 0.33
+P1 yields/run 0.83
+P4 yields/run 0.00
+DONE

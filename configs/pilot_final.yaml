@@ -1,0 +1,10 @@
+# PILOT ONLY (seeds 1000-1049): final candidate settings, used for the power analysis.
+name: pilot_final
+out_dir: data/pilot/final
+seeds: {start: 1000, count: 50}
+policies: [P0, P1, P2, A1, A2, P3, P4]
+base: {n_boats: 4, r_max: 0.45, tau_r: 0.8, current_strength: 0.6, graph_speed: 1.475, age_tau_s: 12.0}
+conditions:
+  - {label: ideal, overrides: {comm_mode: ideal}}
+  - {label: degraded, overrides: {comm_mode: degraded}}
+workers: 18

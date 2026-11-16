@@ -1,0 +1,10 @@
+# CONFIRMATORY (preregistered). Held-out seeds 20000-20399 never run before freezing.
+name: confirmatory
+out_dir: data/confirmatory
+seeds: {start: 20000, count: 400}
+policies: [P0, P1, P2, A1, A2, P3, P4]
+base: {n_boats: 4, r_max: 0.45, tau_r: 0.8, current_strength: 0.6, graph_speed: 1.475, age_tau_s: 12.0}
+conditions:
+  - {label: ideal, overrides: {comm_mode: ideal}}
+  - {label: degraded, overrides: {comm_mode: degraded}}
+workers: 18

@@ -1,0 +1,62 @@
+[
+ {
+  "kind": "speed",
+  "value": null,
+  "headway": 7.211111111111112,
+  "single_boat_bt": 19.700000000000003
+ },
+ {
+  "kind": "speed",
+  "value": 1.4,
+  "headway": 7.877777777777778,
+  "single_boat_bt": 20.200000000000003
+ },
+ {
+  "kind": "speed",
+  "value": 1.0,
+  "headway": 8.88888888888889,
+  "single_boat_bt": 21.1
+ },
+ {
+  "kind": "speed",
+  "value": 0.8,
+  "headway": 9.833333333333334,
+  "single_boat_bt": 22.000000000000004
+ },
+ {
+  "kind": "speed",
+  "value": 0.6,
+  "headway": 11.411111111111113,
+  "single_boat_bt": 23.500000000000004
+ },
+ {
+  "kind": "speed",
+  "value": 0.45,
+  "headway": 13.67777777777778,
+  "single_boat_bt": 25.500000000000004
+ },
+ {
+  "kind": "length",
+  "value": 3.0,
+  "headway": 7.211111111111112,
+  "single_boat_bt": 19.700000000000003
+ },
+ {
+  "kind": "length",
+  "value": 6.0,
+  "headway": 8.955555555555557,
+  "single_boat_bt": 21.700000000000003
+ },
+ {
+  "kind": "length",
+  "value": 10.0,
+  "headway": 11.466666666666669,
+  "single_boat_bt": 25.200000000000003
+ },
+ {
+  "kind": "length",
+  "value": 14.0,
+  "headway": 13.855555555555558,
+  "single_boat_bt": 29.000000000000004
+ }
+]

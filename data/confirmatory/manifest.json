@@ -1,0 +1,78 @@
+{
+  "name": "confirmatory",
+  "config_file": "configs/confirmatory.yaml",
+  "config_file_sha256": "5128f1dac2837f2ef12c6166ef56039c235403cfae40a948ee272e559a784332",
+  "source_hash": "7f9b823a3adcfddc",
+  "git_commit": "none",
+  "python": "3.12.15",
+  "platform": "Linux-7.2.14-arch1-1-x86_64-with-glibc2.44",
+  "seeds": [
+    20000,
+    20399,
+    400
+  ],
+  "policies": [
+    "P0",
+    "P1",
+    "P2",
+    "A1",
+    "A2",
+    "P3",
+    "P4"
+  ],
+  "conditions": [
+    {
+      "label": "ideal",
+      "overrides": {
+        "comm_mode": "ideal"
+      }
+    },
+    {
+      "label": "degraded",
+      "overrides": {
+        "comm_mode": "degraded"
+      }
+    }
+  ],
+  "base": {
+    "n_boats": 4,
+    "r_max": 0.45,
+    "tau_r": 0.8,
+    "current_strength": 0.6,
+    "graph_speed": 1.475,
+    "age_tau_s": 12.0
+  },
+  "config_hashes": {
+    "ideal/P0": "fb2cceb5e18d95d7",
+    "ideal/P1": "318ff37c774e0b6e",
+    "ideal/P2": "ac5be6176ed767cb",
+    "ideal/A1": "1dbc7f6726a6460e",
+    "ideal/A2": "0bbccfa5b35ade0d",
+    "ideal/P3": "dce76fafec261f07",
+    "ideal/P4": "608c63b7eda176e4",
+    "degraded/P0": "d4d717ab677c43f5",
+    "degraded/P1": "8700259c553b9f00",
+    "degraded/P2": "701c31c6cd47b7af",
+    "degraded/A1": "8b75409a1fa6cce6",
+    "degraded/A2": "250b1a34cf1d629a",
+    "degraded/P3": "585e26405e672b5b",
+    "degraded/P4": "717eb47877d3a5a6"
+  },
+  "started": "2026-11-15T01:54:13",
+  "n_jobs": 5600,
+  "already_done": 0,
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "pygame": "2.5.8"
+  },
+  "runs": [
+    {
+      "started": "2026-11-15T01:54:13",
+      "todo": 5600,
+      "source_hash": "7f9b823a3adcfddc"
+    }
+  ],
+  "finished": "2026-11-15T02:12:29"
+}

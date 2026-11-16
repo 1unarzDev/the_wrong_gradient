@@ -1,0 +1,11 @@
+# POST-HOC FOLLOW-UP (added after paper review; NOT preregistered). Same 400 held-out worlds and frozen base
+# config as the confirmatory study; one new strategy P5 = centralized solver run by a leader boat on radio beliefs.
+name: followup_p5
+out_dir: data/followup_p5
+seeds: {start: 20000, count: 400}
+policies: [P5]
+base: {n_boats: 4, r_max: 0.45, tau_r: 0.8, current_strength: 0.6, graph_speed: 1.475, age_tau_s: 12.0}
+conditions:
+  - {label: ideal, overrides: {comm_mode: ideal}}
+  - {label: degraded, overrides: {comm_mode: degraded}}
+workers: 18

@@ -1,0 +1,11 @@
+{
+  "worlds": 60,
+  "decisions": 29032,
+  "agreement_overall": 0.9363805456048498,
+  "agreement_per_world_mean": 0.9363554673893159,
+  "agreement_per_world_min": 0.8091286307053942,
+  "agreement_when_top2_gap_lt_1": 0.889487870619946,
+  "agreement_when_top2_gap_ge_3": 0.9623499589950049,
+  "median_utility_correlation": 0.9917043008953372,
+  "note": "exploratory/post hoc; decisions nested in worlds; P3 trajectory, A1 counterfactual choice"
+}

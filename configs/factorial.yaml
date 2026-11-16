@@ -1,0 +1,16 @@
+# EXPLORATORY (H3). Seeds 30000-30149. Agility x bottleneck x comms; graph speed calibrated per agility on pilot.
+name: factorial
+out_dir: data/factorial
+seeds: {start: 30000, count: 150}
+policies: [P2, A1, A2, P3]
+base: {n_boats: 4, current_strength: 0.6, age_tau_s: 12.0}
+conditions:
+  - {label: sluggish_barrier_ideal,    overrides: {r_max: 0.45, tau_r: 0.8,  graph_speed: 1.475, barrier: true,  comm_mode: ideal}}
+  - {label: sluggish_barrier_degraded, overrides: {r_max: 0.45, tau_r: 0.8,  graph_speed: 1.475, barrier: true,  comm_mode: degraded}}
+  - {label: sluggish_open_ideal,       overrides: {r_max: 0.45, tau_r: 0.8,  graph_speed: 1.475, barrier: false, comm_mode: ideal}}
+  - {label: sluggish_open_degraded,    overrides: {r_max: 0.45, tau_r: 0.8,  graph_speed: 1.475, barrier: false, comm_mode: degraded}}
+  - {label: agile_barrier_ideal,       overrides: {r_max: 0.9,  tau_r: 0.55, graph_speed: 1.694, barrier: true,  comm_mode: ideal}}
+  - {label: agile_barrier_degraded,    overrides: {r_max: 0.9,  tau_r: 0.55, graph_speed: 1.694, barrier: true,  comm_mode: degraded}}
+  - {label: agile_open_ideal,          overrides: {r_max: 0.9,  tau_r: 0.55, graph_speed: 1.694, barrier: false, comm_mode: ideal}}
+  - {label: agile_open_degraded,       overrides: {r_max: 0.9,  tau_r: 0.55, graph_speed: 1.694, barrier: false, comm_mode: degraded}}
+workers: 18

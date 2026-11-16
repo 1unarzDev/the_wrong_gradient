@@ -1,0 +1,10 @@
+# PILOT ONLY (seeds 1000-1049). Used for calibration, debugging and power analysis.
+name: pilot
+out_dir: data/pilot/round3
+seeds: {start: 1000, count: 50}
+policies: [P0, P1, P2, A1, A2, P3, P4]
+base: {n_boats: 4}
+conditions:
+  - {label: ideal, overrides: {comm_mode: ideal}}
+  - {label: degraded, overrides: {comm_mode: degraded}}
+workers: 18

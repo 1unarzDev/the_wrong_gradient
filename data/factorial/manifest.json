@@ -1,0 +1,158 @@
+{
+  "name": "factorial",
+  "config_file": "configs/factorial.yaml",
+  "config_file_sha256": "5804230d64b3adcd737167d02009fb99f07e347e1d054880b85926eb61bc20db",
+  "source_hash": "5ba9d8583be0ff4e",
+  "git_commit": "none",
+  "python": "3.12.15",
+  "platform": "Linux-7.2.14-arch1-1-x86_64-with-glibc2.44",
+  "seeds": [
+    30000,
+    30149,
+    150
+  ],
+  "policies": [
+    "P2",
+    "A1",
+    "A2",
+    "P3"
+  ],
+  "conditions": [
+    {
+      "label": "sluggish_barrier_ideal",
+      "overrides": {
+        "r_max": 0.45,
+        "tau_r": 0.8,
+        "graph_speed": 1.475,
+        "barrier": true,
+        "comm_mode": "ideal"
+      }
+    },
+    {
+      "label": "sluggish_barrier_degraded",
+      "overrides": {
+        "r_max": 0.45,
+        "tau_r": 0.8,
+        "graph_speed": 1.475,
+        "barrier": true,
+        "comm_mode": "degraded"
+      }
+    },
+    {
+      "label": "sluggish_open_ideal",
+      "overrides": {
+        "r_max": 0.45,
+        "tau_r": 0.8,
+        "graph_speed": 1.475,
+        "barrier": false,
+        "comm_mode": "ideal"
+      }
+    },
+    {
+      "label": "sluggish_open_degraded",
+      "overrides": {
+        "r_max": 0.45,
+        "tau_r": 0.8,
+        "graph_speed": 1.475,
+        "barrier": false,
+        "comm_mode": "degraded"
+      }
+    },
+    {
+      "label": "agile_barrier_ideal",
+      "overrides": {
+        "r_max": 0.9,
+        "tau_r": 0.55,
+        "graph_speed": 1.694,
+        "barrier": true,
+        "comm_mode": "ideal"
+      }
+    },
+    {
+      "label": "agile_barrier_degraded",
+      "overrides": {
+        "r_max": 0.9,
+        "tau_r": 0.55,
+        "graph_speed": 1.694,
+        "barrier": true,
+        "comm_mode": "degraded"
+      }
+    },
+    {
+      "label": "agile_open_ideal",
+      "overrides": {
+        "r_max": 0.9,
+        "tau_r": 0.55,
+        "graph_speed": 1.694,
+        "barrier": false,
+        "comm_mode": "ideal"
+      }
+    },
+    {
+      "label": "agile_open_degraded",
+      "overrides": {
+        "r_max": 0.9,
+        "tau_r": 0.55,
+        "graph_speed": 1.694,
+        "barrier": false,
+        "comm_mode": "degraded"
+      }
+    }
+  ],
+  "base": {
+    "n_boats": 4,
+    "current_strength": 0.6,
+    "age_tau_s": 12.0
+  },
+  "config_hashes": {
+    "sluggish_barrier_ideal/P2": "ac5be6176ed767cb",
+    "sluggish_barrier_ideal/A1": "1dbc7f6726a6460e",
+    "sluggish_barrier_ideal/A2": "0bbccfa5b35ade0d",
+    "sluggish_barrier_ideal/P3": "dce76fafec261f07",
+    "sluggish_barrier_degraded/P2": "701c31c6cd47b7af",
+    "sluggish_barrier_degraded/A1": "8b75409a1fa6cce6",
+    "sluggish_barrier_degraded/A2": "250b1a34cf1d629a",
+    "sluggish_barrier_degraded/P3": "585e26405e672b5b",
+    "sluggish_open_ideal/P2": "5979ec7f878ecb2e",
+    "sluggish_open_ideal/A1": "cbac2d7406d2d6d5",
+    "sluggish_open_ideal/A2": "9919e1a61dd01bbb",
+    "sluggish_open_ideal/P3": "e36f4d4ecf1c6963",
+    "sluggish_open_degraded/P2": "0b257cff145bd4d5",
+    "sluggish_open_degraded/A1": "c0d49484346fc0ba",
+    "sluggish_open_degraded/A2": "b08ee947bc666931",
+    "sluggish_open_degraded/P3": "79c015339d8a866e",
+    "agile_barrier_ideal/P2": "dde9e372aed74021",
+    "agile_barrier_ideal/A1": "fb9ba50ac12a9e4a",
+    "agile_barrier_ideal/A2": "eb3fe663bbded1e7",
+    "agile_barrier_ideal/P3": "7c056fb262306c5f",
+    "agile_barrier_degraded/P2": "83d2d951b00f4610",
+    "agile_barrier_degraded/A1": "60399f7951026db5",
+    "agile_barrier_degraded/A2": "866d58149555832c",
+    "agile_barrier_degraded/P3": "e83b5d5a1b7506c9",
+    "agile_open_ideal/P2": "b9f252e462941863",
+    "agile_open_ideal/A1": "3c43ad876a92bd20",
+    "agile_open_ideal/A2": "1f2137ebc2419bf1",
+    "agile_open_ideal/P3": "b8c1a1ac05f1424f",
+    "agile_open_degraded/P2": "fd6f2e7ae3e67740",
+    "agile_open_degraded/A1": "08b5ded70cb15f49",
+    "agile_open_degraded/A2": "23f4a7347652eb48",
+    "agile_open_degraded/P3": "e79f0cdc08ab0ddc"
+  },
+  "started": "2026-11-15T02:12:30",
+  "n_jobs": 4800,
+  "already_done": 0,
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "pygame": "2.5.8"
+  },
+  "runs": [
+    {
+      "started": "2026-11-15T02:12:30",
+      "todo": 4800,
+      "source_hash": "5ba9d8583be0ff4e"
+    }
+  ],
+  "finished": "2026-11-15T02:27:22"
+}

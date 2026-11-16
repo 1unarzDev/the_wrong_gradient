@@ -1,0 +1,73 @@
+{
+  "name": "pilot",
+  "config_file": "configs/pilot.yaml",
+  "config_file_sha256": "99d4fab5d9b14d64281233ac18ff5d8357baa8869b0da8c45b2f9be423bd9884",
+  "source_hash": "31e257dced64a4e4",
+  "git_commit": "none",
+  "python": "3.12.15",
+  "platform": "Linux-7.2.14-arch1-1-x86_64-with-glibc2.44",
+  "seeds": [
+    1000,
+    1049,
+    50
+  ],
+  "policies": [
+    "P0",
+    "P1",
+    "P2",
+    "A1",
+    "A2",
+    "P3",
+    "P4"
+  ],
+  "conditions": [
+    {
+      "label": "ideal",
+      "overrides": {
+        "comm_mode": "ideal"
+      }
+    },
+    {
+      "label": "degraded",
+      "overrides": {
+        "comm_mode": "degraded"
+      }
+    }
+  ],
+  "base": {
+    "n_boats": 4
+  },
+  "config_hashes": {
+    "ideal/P0": "35eddf6dc814cbcd",
+    "ideal/P1": "9576484059b7d55f",
+    "ideal/P2": "e28517669bf9b13c",
+    "ideal/A1": "ae67ba1701fdcb88",
+    "ideal/A2": "cc7a9584bca18d89",
+    "ideal/P3": "81ebcaeccd2db9aa",
+    "ideal/P4": "20c87ded25d6c176",
+    "degraded/P0": "fc3e5628091f80aa",
+    "degraded/P1": "6f74bed78726f41a",
+    "degraded/P2": "b76a0a7b7e71f845",
+    "degraded/A1": "b948f0f775a2fffb",
+    "degraded/A2": "ecafef9e08abf4c8",
+    "degraded/P3": "a0a73c6ae14a559b",
+    "degraded/P4": "50591d6cc1a4671a"
+  },
+  "started": "2026-11-15T01:38:30",
+  "n_jobs": 700,
+  "already_done": 0,
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "pygame": "2.5.8"
+  },
+  "runs": [
+    {
+      "started": "2026-11-15T01:38:30",
+      "todo": 700,
+      "source_hash": "31e257dced64a4e4"
+    }
+  ],
+  "finished": "2026-11-15T01:40:47"
+}

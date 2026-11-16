@@ -1,0 +1,74 @@
+{
+  "name": "pilot_agetau",
+  "config_file": "configs/pilot_agetau.yaml",
+  "config_file_sha256": "10e8d6b14cec611391ff3dfdc21b7cf58b558ea19602379de49c4e9329f5d747",
+  "source_hash": "31e257dced64a4e4",
+  "git_commit": "none",
+  "python": "3.12.15",
+  "platform": "Linux-7.2.14-arch1-1-x86_64-with-glibc2.44",
+  "seeds": [
+    1000,
+    1049,
+    50
+  ],
+  "policies": [
+    "A1",
+    "A2",
+    "P3"
+  ],
+  "conditions": [
+    {
+      "label": "tau3",
+      "overrides": {
+        "age_tau_s": 3.0
+      }
+    },
+    {
+      "label": "tau12",
+      "overrides": {
+        "age_tau_s": 12.0
+      }
+    },
+    {
+      "label": "tau25",
+      "overrides": {
+        "age_tau_s": 25.0
+      }
+    }
+  ],
+  "base": {
+    "n_boats": 4,
+    "r_max": 0.45,
+    "tau_r": 0.8,
+    "current_strength": 0.6,
+    "comm_mode": "degraded"
+  },
+  "config_hashes": {
+    "tau3/A1": "095d662d557aa946",
+    "tau3/A2": "277d4383d9d4f510",
+    "tau3/P3": "520db9e66c336993",
+    "tau12/A1": "61a9aeab1d6afc88",
+    "tau12/A2": "cc710f6c5fc5312c",
+    "tau12/P3": "644b55fffb3cbc58",
+    "tau25/A1": "847d3c0bc35c9ca2",
+    "tau25/A2": "77e430d982663f12",
+    "tau25/P3": "c52a4ba72b4c92e7"
+  },
+  "started": "2026-11-15T01:43:37",
+  "n_jobs": 450,
+  "already_done": 0,
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "pygame": "2.5.8"
+  },
+  "runs": [
+    {
+      "started": "2026-11-15T01:43:37",
+      "todo": 450,
+      "source_hash": "31e257dced64a4e4"
+    }
+  ],
+  "finished": "2026-11-15T01:45:15"
+}
